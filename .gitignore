@@ -1,0 +1,17 @@
+# Python
+backend/venv/
+backend/__pycache__/
+backend/routes/__pycache__/
+backend/.env
+backend/setup_users.py
+
+# Java
+frontend/out/
+frontend/org.json.jar
+
+# SSL
+backend/ca.pem
+ca.pem
+
+# macOS
+.DS_Store

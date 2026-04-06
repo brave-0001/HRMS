@@ -1,0 +1,123 @@
+.root {
+    -fx-font-family: "Helvetica Neue", "Arial", sans-serif;
+    -fx-background-color: #F6FAFD;
+    -fx-font-size: 13px;
+}
+
+.tab-pane {
+    -fx-background-color: #F6FAFD;
+}
+
+.tab-pane .tab-header-area {
+    -fx-background-color: #1A3D63;
+    -fx-padding: 4 16 0 16;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: #1A3D63;
+}
+
+.tab-pane .tab {
+    -fx-background-color: transparent;
+    -fx-padding: 10 24;
+    -fx-background-radius: 8 8 0 0;
+}
+
+.tab-pane .tab:selected {
+    -fx-background-color: #F6FAFD;
+}
+
+.tab-pane .tab .tab-label {
+    -fx-text-fill: #A8BDD4;
+    -fx-font-size: 13px;
+}
+
+.tab-pane .tab:selected .tab-label {
+    -fx-text-fill: #1A3D63;
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-background-color: #1A3D63;
+    -fx-text-fill: #F6FAFD;
+    -fx-background-radius: 20;
+    -fx-padding: 7 20;
+    -fx-cursor: hand;
+    -fx-font-size: 12px;
+    -fx-effect: dropshadow(gaussian, rgba(26,61,99,0.25), 8, 0, 0, 2);
+}
+
+.button:hover {
+    -fx-background-color: #24538A;
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-background-radius: 12;
+    -fx-border-color: #E2EAF3;
+    -fx-border-radius: 12;
+    -fx-border-width: 1;
+}
+
+.table-view .column-header {
+    -fx-background-color: #EEF4FA;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #1A3D63;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #EEF4FA;
+    -fx-background-radius: 12 12 0 0;
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: white;
+    -fx-border-color: #EEF4FA;
+    -fx-border-width: 0 0 1 0;
+    -fx-text-fill: #2C3E50;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #D6E6F5;
+}
+
+.text-field, .combo-box {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #C8D8E8;
+    -fx-border-width: 1;
+    -fx-padding: 7 12;
+    -fx-text-fill: #1A3D63;
+    -fx-prompt-text-fill: #A8BDD4;
+}
+
+.text-field:focused {
+    -fx-border-color: #1A3D63;
+    -fx-effect: dropshadow(gaussian, rgba(26,61,99,0.12), 6, 0, 0, 0);
+}
+
+.combo-box .list-cell {
+    -fx-background-color: white;
+    -fx-text-fill: #1A3D63;
+}
+
+.scroll-bar {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #C8D8E8;
+    -fx-background-radius: 4;
+}
+
+.label {
+    -fx-text-fill: #1A3D63;
+}
+.split-pane {
+    -fx-background-color: #F6FAFD;
+}
