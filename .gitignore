@@ -14,4 +14,5 @@ backend/ca.pem
 ca.pem
 
 # macOS
-.DS_Store
+.DS_Storejavafx-sdk-21.0.10/
+javafx-sdk-26/
